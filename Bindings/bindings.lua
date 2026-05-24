@@ -7,6 +7,7 @@ o.bind("SUPER + SHIFT + B", "Browser (private)", { omarchy = "browser --private"
 o.bind("SUPER + S", "Music", { omarchy = "or-focus spotify" })
 o.bind("SUPER + SHIFT + N", "Editor", { omarchy = "editor" })
 o.bind("SUPER + V", "VSCode", "code")
+o.bind("SUPER + D", "Discord", "discord")
 
 -- Web app bindings.
 o.bind("SUPER  + Y", "YouTube", { webapp = "https://youtube.com/" })
