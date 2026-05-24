@@ -29,16 +29,25 @@ o.bind("SUPER + SHIFT + S", nil, "omarchy-capture-screenshot")
 -- o.bind("SUPER + H", nil, "voxtype record toggle")
 -- o.bind("SUPER + PERIOD", nil, { omarchy = "walker -m symbols" })
 
-o.bind("CTRL + ALT + A", nil, "wtype 'á'")
-o.bind("CTRL + ALT + E", nil, "wtype 'é'")
-o.bind("CTRL + ALT + I", nil, "wtype 'í'")
-o.bind("CTRL + ALT + O", nil, "wtype 'ó'")
-o.bind("CTRL + ALT + U", nil, "wtype 'ú'")
-o.bind("CTRL + ALT + N", nil, "wtype 'ñ'")
+hl.config({
+	input = {
+		kb_options = "caps:hyper",
+	},
+})
 
-o.bind("CTRL + ALT + SHIFT + A", nil, "wtype 'Á'")
-o.bind("CTRL + ALT + SHIFT + E", nil, "wtype 'É'")
-o.bind("CTRL + ALT + SHIFT + I", nil, "wtype 'Í'")
-o.bind("CTRL + ALT + SHIFT + O", nil, "wtype 'Ó'")
-o.bind("CTRL + ALT + SHIFT + U", nil, "wtype 'Ú'")
-o.bind("CTRL + ALT + SHIFT + N", nil, "wtype 'Ñ'")
+o.bind("MOD3 + A", nil, "wtype 'á'")
+o.bind("MOD3 + E", nil, "wtype 'é'")
+o.bind("MOD3 + I", nil, "wtype 'í'")
+o.bind("MOD3 + O", nil, "wtype 'ó'")
+o.bind("MOD3 + U", nil, "wtype 'ú'")
+o.bind("MOD3 + N", nil, "wtype 'ñ'")
+
+o.bind("MOD3 + SHIFT + A", nil, "wtype 'Á'")
+o.bind("MOD3 + SHIFT + E", nil, "wtype 'É'")
+o.bind("MOD3 + SHIFT + I", nil, "wtype 'Í'")
+o.bind("MOD3 + SHIFT + O", nil, "wtype 'Ó'")
+o.bind("MOD3 + SHIFT + U", nil, "wtype 'Ú'")
+o.bind("MOD3 + SHIFT + N", nil, "wtype 'Ñ'")
+
+o.bind("MOD3 + ALT + U", nil, "wtype 'ü'")
+o.bind("MOD3 + ALT + SHIFT + U", nil, "wtype 'Ü'")
